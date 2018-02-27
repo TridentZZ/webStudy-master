@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script>
+        window.onload = function () {
+            var html = document.documentElement;
+            var width =html.getBoundingClientRect().width;
+            html.style.fontSize=width/18+'px';
+            console.log(width);
+        }
+    </script>
+</head>
+<body>
+    <header id="header" class="clearfix">
+        <a class="left" href="#">北京市海淀区<span><span></a>
+        <input type="text" placeholder="请输入" class="left">
+        <a class="right" href="#"><span>我的</span></a>
+    </header>
+    <div id="banner">
+        <img src="../images/img2.jpg" alt="">
+    </div>
+    <nav id="nav">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </nav>
+    <section id="sec">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </section>
+</body>
+</html>
